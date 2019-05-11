@@ -1,3 +1,9 @@
+controllerbuild:
+  enabled: true
+controllerworkflow:
+  enabled: false
+jenkins:
+  enabled: false
 jenkins-x-platform:
   PipelineSecrets:
     DockerConfig: |-
@@ -12,3 +18,8 @@ jenkins-x-platform:
       }
   postinstalljob:
     enabled: "true"
+tekton:
+  auth:
+    git:
+      username: ssathi
+  tillerNamespace: ""
