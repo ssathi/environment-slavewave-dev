@@ -1,0 +1,35 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDCzCCAfOgAwIBAgIQLKLlnmr3yz7SjeJdAllvAjANBgkqhkiG9w0BAQsFADAv
+    MS0wKwYDVQQDEyRhMGRmODk4ZC04N2FlLTRmZjgtYWNiZS04ODAyODA2ZjVjZGEw
+    HhcNMTkwNTExMDUzMTM2WhcNMjQwNTA5MDYzMTM2WjAvMS0wKwYDVQQDEyRhMGRm
+    ODk4ZC04N2FlLTRmZjgtYWNiZS04ODAyODA2ZjVjZGEwggEiMA0GCSqGSIb3DQEB
+    AQUAA4IBDwAwggEKAoIBAQCzZ75sl6r1EaD2DccwI5e18MReri1ewSALftM3pCeV
+    xGOS1cFfn8FVMIgFmxz/I43g8snA2SUEEYNepUGGOZ9Uf53T2ro9ft5W7WzFtF5z
+    g1xQe1CiuCgJ68VK2TLqu5QeYOTENyHL6rikMkjiwwx+JYZUfk+JkstuBAHEy55L
+    oXIPZjenalRobTA7Vkp8O6rYoPM5PNzy2Pk1iSV7KT9bb3GcLlcCORr17Kc1G9E1
+    ybThf8hxUvkenCIBeQxezHsvUowcWe+SvHSuEWS8q7u0dfJe3xHriRzTuJUL7/2P
+    sQEbFyBlbHG0M8WievBCpxp9DsAj9vXxdRFPIkLwU5NlAgMBAAGjIzAhMA4GA1Ud
+    DwEB/wQEAwICBDAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBw
+    QCsN/lsd2Tjcdt8A3pYtLt/Vq4gw49csJ2GdvhzXTlVWF+lGXapCiz2g5wNrdQAB
+    h+9bLawqLJ46XnkCR+eZLP2qofbZRX5XHgeAA2jYOshEEXF4EofvUY9jrrVkZnvK
+    3/P2fMXvZ8MK96pivd7giEi3uREYlRkPxk22FxrTBDEYAX1X54sR38Sti6l8tsXA
+    F/1urVTRi/smP0H/8ExwuYsANzyUgrEXYsABq17CjvUXU2qEEWsQ9llLZbNGyYPh
+    dHcT23WCZlDdk/pOrau0pDXbTkVDmoTwpE91wtobtxVHWgz6NrhgQAZg09YMvjyG
+    xyNl5mHtV1UbPpt8+OJQ
+    -----END CERTIFICATE-----
+  clusterName: slavewave
+  jx-install-version: 2.0.116
+  kubeProvider: gke
+  projectID: buoyant-airport-231116
+  region: ""
+  secretsLocation: vault
+  server: https://35.229.160.223
+  systemVaultName: jx-vault-slavewave
+  zone: asia-east1-a
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
